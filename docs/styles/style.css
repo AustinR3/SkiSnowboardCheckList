@@ -8,6 +8,15 @@
      height: 100vh;
      background-image: url(bg.jpg);
  }
+
+ /* logo */
+.logo{
+    width: 230px;
+    height: 200px;
+    cursor: pointer;
+}
+
+ /* Nav Bar */
 .nav{
     width: 85%;
     margin: auto;
@@ -16,12 +25,6 @@
     align-items: center;
     justify-content: space-between;
     
-}
-
-.logo{
-    width: 230px;
-    height: 200px;
-    cursor: pointer;
 }
 
 .nav ul li{
@@ -53,6 +56,7 @@
     width: 100%;
 }
 
+/* Home page */
 .content{
     width: 100%;
     position: absolute;
@@ -73,14 +77,15 @@
     font-weight: 100;
     line-height: 25px;
 }
+/* Gear List */
 .content1 h1{
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .content1{
     text-transform: uppercase;
-    padding: 5px;
+    padding: 1px;
     height: 50vh;
     text-align: center;
     display: flex;
@@ -91,10 +96,32 @@
 
 .content1 .group{
     padding: 8px 20px;
-    margin: 2px;
+    margin: 1px;
+}
+/* Trick List */
+.content2 h1{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.content2{
+    text-transform: uppercase;
+    padding: 1px;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.content2 .group2{
+    padding: 8px 20px;
+    margin: 0px;
 }
 
 
+/* Check Box Styles */
 input[type="checkbox"] {
     display: none;
 }
@@ -121,7 +148,7 @@ label::before{
 input[type="checkbox"]:checked + label::before {
     transform: scale(1) rotateZ(0deg);
 }
-
+/* Sign Up Form */
 .box{
     width: 300px;
     padding: 40px;
@@ -182,7 +209,7 @@ input[type="checkbox"]:checked + label::before {
 .box p{
     text-transform: uppercase;
 }
-
+/* Feedback Page */
 .content3{
     width: 300px;
     padding: 40px;
@@ -192,6 +219,7 @@ input[type="checkbox"]:checked + label::before {
     transform: translate(-50%, -50%);
     background: transparent;
     text-align: center;
+    
 }
 
 .content3 h1{
@@ -201,6 +229,8 @@ input[type="checkbox"]:checked + label::before {
     position: relative;
     top: 90px;
 }
+
+
 
 .content3 .name{
     position: relative;
@@ -274,7 +304,50 @@ input[type="checkbox"]:checked + label::before {
     background: #00bcf5;
 }
 
+/* side bar */
 
+.sidebar1{
+    width: 300px;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.sidebar1 a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.sidebar2{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sidebar2 a{
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Footer */
 .footer_copy p{
    width: 100%;
    position: absolute;
